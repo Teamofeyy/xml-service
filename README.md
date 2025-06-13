@@ -10,6 +10,11 @@
   chmod +x run.sh 
   ./run.sh
 ```
+
+### Откройте в браузере:
+```
+http://localhost:8080
+```
 # Просмотр результатов импорта
 ```shell
 docker exec -it db psql -U postgres -c "
