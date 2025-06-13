@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XML File Upload</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="upload-container">
+  <h1>Загрузка XML файла</h1>
+
+  <form id="uploadForm">
+    <input
+      type="file"
+      id="xmlFile"
+      class="file-input"
+      accept=".xml"
+      required
+    >
+    <button type="submit" class="upload-btn" id="uploadBtn">Загрузить файл</button>
+  </form>
+
+  <div class="loader" id="loader"></div>
+
+  <div class="result" id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
